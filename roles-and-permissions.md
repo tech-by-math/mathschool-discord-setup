@@ -11,7 +11,7 @@ This document provides a comprehensive reference for all roles, permissions, and
 ## 👑 Staff Role Hierarchy
 
 ### 1. Admin
-- **Color**: Red (#FF0000)
+- **Color**: <span style="display: inline-block; width: 20px; height: 20px; background-color: #FF0000; border: 1px solid #000; vertical-align: middle; margin-right: 8px;"></span>Red (#FF0000)
 - **Position**: Highest
 - **Key Permissions**: Administrator (all permissions)
 - **Access**: All channels and features
@@ -19,7 +19,7 @@ This document provides a comprehensive reference for all roles, permissions, and
 - **Mentionable**: No (to prevent spam)
 
 ### 2. Teacher  
-- **Color**: Purple (#9932CC)
+- **Color**: <span style="display: inline-block; width: 20px; height: 20px; background-color: #9932CC; border: 1px solid #000; vertical-align: middle; margin-right: 8px;"></span>Purple (#9932CC)
 - **Position**: Below Admin
 - **Key Permissions**: Manage Channels, Manage Messages, Kick Members, Mute Members
 - **Access**: All channels, can post in announcements
@@ -27,7 +27,7 @@ This document provides a comprehensive reference for all roles, permissions, and
 - **Mentionable**: Yes
 
 ### 3. TA (Teaching Assistant)
-- **Color**: Blue (#0000FF)
+- **Color**: <span style="display: inline-block; width: 20px; height: 20px; background-color: #0000FF; border: 1px solid #000; vertical-align: middle; margin-right: 8px;"></span>Blue (#0000FF)
 - **Position**: Below Teacher
 - **Key Permissions**: Manage Messages, Mute Members
 - **Access**: All student areas, staff areas except teacher-lounge
@@ -35,7 +35,7 @@ This document provides a comprehensive reference for all roles, permissions, and
 - **Mentionable**: Yes
 
 ### 4. Tutor
-- **Color**: Green (#008000)
+- **Color**: <span style="display: inline-block; width: 20px; height: 20px; background-color: #008000; border: 1px solid #000; vertical-align: middle; margin-right: 8px;"></span>Green (#008000)
 - **Position**: Below TA
 - **Key Permissions**: Manage Messages (homework help channels only)
 - **Access**: Homework help forums, materials-bank
@@ -49,22 +49,22 @@ This document provides a comprehensive reference for all roles, permissions, and
 ### Computer Science Courses
 | Role | Color | Access | Typical Enrollment |
 |------|-------|--------|-------------------|
-| `2025-CS1` | #FF6B6B (Red) | cs1-classroom, homework help | Intro CS students |
-| `2025-CS2` | #FF8E53 (Orange) | cs2-classroom, homework help | Data Structures |
-| `2025-CS3` | #FF6B9D (Pink) | cs3-classroom, homework help | Algorithms |
-| `2025-CS4` | #C44569 (Dark Red) | cs4-classroom, homework help | Advanced Topics |
+| `2025-CS1` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF6B6B; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FF6B6B (Red) | cs1-classroom, homework help | Intro CS students |
+| `2025-CS2` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF8E53; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FF8E53 (Orange) | cs2-classroom, homework help | Data Structures |
+| `2025-CS3` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF6B9D; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FF6B9D (Pink) | cs3-classroom, homework help | Algorithms |
+| `2025-CS4` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #C44569; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#C44569 (Dark Red) | cs4-classroom, homework help | Advanced Topics |
 
 ### Mathematics Courses  
 | Role | Color | Access | Typical Enrollment |
 |------|-------|--------|-------------------|
-| `2025-L1` | #4834D4 (Purple) | l1-classroom, homework help | Pre-Algebra |
-| `2025-L2` | #6C5CE7 (Light Purple) | l2-classroom, homework help | Algebra/Geometry |
-| `2025-FunMath1` | #A55EEA (Magenta) | funmath1-classroom, homework help | Creative Math 1 |
-| `2025-FunMath2` | #FD79A8 (Pink) | funmath2-classroom, homework help | Creative Math 2 |
-| `2025-AMC8` | #00B894 (Teal) | amc8-classroom, homework help | Middle School Competition |
-| `2025-AMC10` | #00CEC9 (Cyan) | amc10-classroom, homework help | High School Competition |
-| `2025-AMC12` | #81ECEC (Light Cyan) | amc12-classroom, homework help | Advanced Competition |
-| `2025-AIME` | #74B9FF (Blue) | aime-classroom, homework help | Elite Competition |
+| `2025-L1` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #4834D4; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#4834D4 (Purple) | l1-classroom, homework help | Pre-Algebra |
+| `2025-L2` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #6C5CE7; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#6C5CE7 (Light Purple) | l2-classroom, homework help | Algebra/Geometry |
+| `2025-FunMath1` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #A55EEA; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#A55EEA (Magenta) | funmath1-classroom, homework help | Creative Math 1 |
+| `2025-FunMath2` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #FD79A8; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FD79A8 (Pink) | funmath2-classroom, homework help | Creative Math 2 |
+| `2025-AMC8` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #00B894; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#00B894 (Teal) | amc8-classroom, homework help | Middle School Competition |
+| `2025-AMC10` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #00CEC9; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#00CEC9 (Cyan) | amc10-classroom, homework help | High School Competition |
+| `2025-AMC12` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #81ECEC; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#81ECEC (Light Cyan) | amc12-classroom, homework help | Advanced Competition |
+| `2025-AIME` | <span style="display: inline-block; width: 16px; height: 16px; background-color: #74B9FF; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#74B9FF (Blue) | aime-classroom, homework help | Elite Competition |
 
 ### Student Role Properties
 - **Permissions**: Default (@everyone permissions)
