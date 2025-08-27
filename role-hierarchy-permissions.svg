@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+      .section-title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #34495e; }
+      .role-text { font-family: Arial, sans-serif; font-size: 14px; fill: #ffffff; font-weight: bold; }
+      .channel-text { font-family: Arial, sans-serif; font-size: 12px; fill: #2c3e50; }
+      .access-text { font-family: Arial, sans-serif; font-size: 11px; fill: #7f8c8d; }
+      .permission-text { font-family: Arial, sans-serif; font-size: 10px; fill: #2c3e50; }
+      
+      .admin-role { fill: #e74c3c; stroke: #c0392b; stroke-width: 2; }
+      .teacher-role { fill: #9b59b6; stroke: #8e44ad; stroke-width: 2; }
+      .ta-role { fill: #3498db; stroke: #2980b9; stroke-width: 2; }
+      .tutor-role { fill: #27ae60; stroke: #229954; stroke-width: 2; }
+      .student-role { fill: #f39c12; stroke: #e67e22; stroke-width: 2; }
+      
+      .full-access { fill: #27ae60; }
+      .moderate-access { fill: #f39c12; }
+      .view-access { fill: #3498db; }
+      .no-access { fill: #95a5a6; }
+      
+      .matrix-bg { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 1; }
+      .header-bg { fill: #34495e; }
+      .legend-box { fill: #ffffff; stroke: #95a5a6; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="1200" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="700" y="30" text-anchor="middle" class="title">MathSchool Discord Role Hierarchy &amp; Permissions Matrix</text>
+  
+  <!-- Role Hierarchy Section -->
+  <text x="50" y="70" class="section-title">Role Hierarchy (Top to Bottom)</text>
+  
+  <!-- Staff Roles Hierarchy -->
+  <rect x="50" y="90" width="150" height="40" class="admin-role"/>
+  <text x="125" y="115" text-anchor="middle" class="role-text">Admin</text>
+  
+  <rect x="50" y="140" width="150" height="40" class="teacher-role"/>
+  <text x="125" y="165" text-anchor="middle" class="role-text">Teacher</text>
+  
+  <rect x="50" y="190" width="150" height="40" class="ta-role"/>
+  <text x="125" y="215" text-anchor="middle" class="role-text">TA</text>
+  
+  <rect x="50" y="240" width="150" height="40" class="tutor-role"/>
+  <text x="125" y="265" text-anchor="middle" class="role-text">Tutor</text>
+  
+  <!-- Arrows showing hierarchy -->
+  <polygon points="125,130 120,135 130,135" fill="#2c3e50"/>
+  <polygon points="125,180 120,185 130,185" fill="#2c3e50"/>
+  <polygon points="125,230 120,235 130,235" fill="#2c3e50"/>
+  
+  <!-- Role Descriptions -->
+  <text x="220" y="110" class="channel-text">Full server management, all permissions</text>
+  <text x="220" y="160" class="channel-text">Course instruction, content moderation</text>
+  <text x="220" y="210" class="channel-text">Student support, homework help moderation</text>
+  <text x="220" y="260" class="channel-text">Homework assistance, specialized help</text>
+  
+  <!-- Student Roles Section -->
+  <text x="50" y="320" class="section-title">Student Roles (Semester-Based, Equal Level)</text>
+  
+  <!-- CS Student Roles -->
+  <text x="50" y="350" class="channel-text">Computer Science:</text>
+  <rect x="50" y="360" width="100" height="30" class="student-role"/>
+  <text x="100" y="380" text-anchor="middle" class="role-text">2025-CS1</text>
+  
+  <rect x="160" y="360" width="100" height="30" class="student-role"/>
+  <text x="210" y="380" text-anchor="middle" class="role-text">2025-CS2</text>
+  
+  <rect x="270" y="360" width="100" height="30" class="student-role"/>
+  <text x="320" y="380" text-anchor="middle" class="role-text">2025-CS3</text>
+  
+  <rect x="380" y="360" width="100" height="30" class="student-role"/>
+  <text x="430" y="380" text-anchor="middle" class="role-text">2025-CS4</text>
+  
+  <!-- Math Student Roles -->
+  <text x="50" y="420" class="channel-text">Mathematics:</text>
+  <rect x="50" y="430" width="80" height="30" class="student-role"/>
+  <text x="90" y="450" text-anchor="middle" class="role-text">2025-L1</text>
+  
+  <rect x="140" y="430" width="80" height="30" class="student-role"/>
+  <text x="180" y="450" text-anchor="middle" class="role-text">2025-L2</text>
+  
+  <rect x="230" y="430" width="100" height="30" class="student-role"/>
+  <text x="280" y="450" text-anchor="middle" class="role-text">FunMath1</text>
+  
+  <rect x="340" y="430" width="100" height="30" class="student-role"/>
+  <text x="390" y="450" text-anchor="middle" class="role-text">FunMath2</text>
+  
+  <!-- Competition Roles -->
+  <text x="50" y="490" class="channel-text">Competition Math:</text>
+  <rect x="50" y="500" width="80" height="30" class="student-role"/>
+  <text x="90" y="520" text-anchor="middle" class="role-text">AMC8</text>
+  
+  <rect x="140" y="500" width="80" height="30" class="student-role"/>
+  <text x="180" y="520" text-anchor="middle" class="role-text">AMC10</text>
+  
+  <rect x="230" y="500" width="80" height="30" class="student-role"/>
+  <text x="270" y="520" text-anchor="middle" class="role-text">AMC12</text>
+  
+  <rect x="320" y="500" width="80" height="30" class="student-role"/>
+  <text x="360" y="520" text-anchor="middle" class="role-text">AIME</text>
+  
+  <!-- Permissions Matrix -->
+  <text x="600" y="70" class="section-title">Channel Access Permissions Matrix</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="80" width="300" height="120" class="legend-box"/>
+  <text x="610" y="100" class="channel-text">Access Levels:</text>
+  <rect x="610" y="110" width="15" height="15" class="full-access"/>
+  <text x="635" y="122" class="permission-text">Full Access (Post, Moderate, Manage)</text>
+  <rect x="610" y="130" width="15" height="15" class="moderate-access"/>
+  <text x="635" y="142" class="permission-text">Moderate Access (Post, Some Moderation)</text>
+  <rect x="610" y="150" width="15" height="15" class="view-access"/>
+  <text x="635" y="162" class="permission-text">View Access (Read, React, Reply)</text>
+  <rect x="610" y="170" width="15" height="15" class="no-access"/>
+  <text x="635" y="182" class="permission-text">No Access</text>
+  
+  <!-- Matrix Table -->
+  <!-- Headers -->
+  <rect x="600" y="220" width="150" height="30" class="header-bg"/>
+  <text x="675" y="240" text-anchor="middle" class="role-text">Channel Type</text>
+  
+  <rect x="750" y="220" width="80" height="30" class="header-bg"/>
+  <text x="790" y="240" text-anchor="middle" class="role-text">Admin</text>
+  
+  <rect x="830" y="220" width="80" height="30" class="header-bg"/>
+  <text x="870" y="240" text-anchor="middle" class="role-text">Teacher</text>
+  
+  <rect x="910" y="220" width="80" height="30" class="header-bg"/>
+  <text x="950" y="240" text-anchor="middle" class="role-text">TA</text>
+  
+  <rect x="990" y="220" width="80" height="30" class="header-bg"/>
+  <text x="1030" y="240" text-anchor="middle" class="role-text">Tutor</text>
+  
+  <rect x="1070" y="220" width="80" height="30" class="header-bg"/>
+  <text x="1110" y="240" text-anchor="middle" class="role-text">Students</text>
+  
+  <!-- Global Community Row -->
+  <rect x="600" y="250" width="150" height="30" class="matrix-bg"/>
+  <text x="610" y="270" class="channel-text">Global Community</text>
+  
+  <rect x="750" y="250" width="80" height="30" class="full-access"/>
+  <rect x="830" y="250" width="80" height="30" class="full-access"/>
+  <rect x="910" y="250" width="80" height="30" class="moderate-access"/>
+  <rect x="990" y="250" width="80" height="30" class="view-access"/>
+  <rect x="1070" y="250" width="80" height="30" class="view-access"/>
+  
+  <!-- Homework Help Row -->
+  <rect x="600" y="280" width="150" height="30" class="matrix-bg"/>
+  <text x="610" y="300" class="channel-text">Homework Help</text>
+  
+  <rect x="750" y="280" width="80" height="30" class="full-access"/>
+  <rect x="830" y="280" width="80" height="30" class="full-access"/>
+  <rect x="910" y="280" width="80" height="30" class="moderate-access"/>
+  <rect x="990" y="280" width="80" height="30" class="moderate-access"/>
+  <rect x="1070" y="280" width="80" height="30" class="view-access"/>
+  
+  <!-- Classrooms Row -->
+  <rect x="600" y="310" width="150" height="30" class="matrix-bg"/>
+  <text x="610" y="330" class="channel-text">Classrooms</text>
+  
+  <rect x="750" y="310" width="80" height="30" class="full-access"/>
+  <rect x="830" y="310" width="80" height="30" class="full-access"/>
+  <rect x="910" y="310" width="80" height="30" class="full-access"/>
+  <rect x="990" y="310" width="80" height="30" class="view-access"/>
+  <rect x="1070" y="310" width="80" height="30" class="view-access"/>
+  
+  <!-- Staff Spaces Row -->
+  <rect x="600" y="340" width="150" height="30" class="matrix-bg"/>
+  <text x="610" y="360" class="channel-text">Staff Spaces</text>
+  
+  <rect x="750" y="340" width="80" height="30" class="full-access"/>
+  <rect x="830" y="340" width="80" height="30" class="full-access"/>
+  <rect x="910" y="340" width="80" height="30" class="moderate-access"/>
+  <rect x="990" y="340" width="80" height="30" class="view-access"/>
+  <rect x="1070" y="340" width="80" height="30" class="no-access"/>
+  
+  <!-- Access Logic Explanation -->
+  <text x="600" y="410" class="section-title">Key Access Principles</text>
+  
+  <text x="600" y="440" class="channel-text">• Staff roles have hierarchical permissions (Admin > Teacher > TA > Tutor)</text>
+  <text x="600" y="460" class="channel-text">• Student classroom access is role-specific (only your enrolled courses)</text>
+  <text x="600" y="480" class="channel-text">• Homework help is open to ALL math/CS students for cross-level learning</text>
+  <text x="600" y="500" class="channel-text">• Global community channels are open to everyone for school-wide connection</text>
+  <text x="600" y="520" class="channel-text">• Staff spaces are restricted by role level for internal coordination</text>
+  
+  <!-- Role Assignment Rules -->
+  <text x="50" y="580" class="section-title">Role Assignment Rules</text>
+  
+  <rect x="50" y="600" width="500" height="180" class="matrix-bg"/>
+  <text x="60" y="620" class="channel-text">Staff Roles (Assigned by Admins):</text>
+  <text x="70" y="640" class="permission-text">• Admin: Server administrators, full control</text>
+  <text x="70" y="660" class="permission-text">• Teacher: Course instructors, assigned to specific courses</text>
+  <text x="70" y="680" class="permission-text">• TA: Teaching assistants, usually 1-2 per course</text>
+  <text x="70" y="700" class="permission-text">• Tutor: Specialized homework help moderators</text>
+  
+  <text x="60" y="730" class="channel-text">Student Roles (Semester-Based):</text>
+  <text x="70" y="750" class="permission-text">• Assigned based on course enrollment each semester</text>
+  <text x="70" y="770" class="permission-text">• Students can have multiple roles if enrolled in multiple courses</text>
+  
+  <!-- Permission Details -->
+  <text x="600" y="580" class="section-title">Detailed Permissions by Channel Type</text>
+  
+  <rect x="600" y="600" width="750" height="280" class="matrix-bg"/>
+  
+  <text x="610" y="620" class="channel-text">Announcements (#announcements):</text>
+  <text x="620" y="635" class="permission-text">• Read-only for all users except Teachers and Admins</text>
+  <text x="620" y="650" class="permission-text">• Used for school-wide important communications only</text>
+  
+  <text x="610" y="670" class="channel-text">Forum Channels (Homework Help):</text>
+  <text x="620" y="685" class="permission-text">• All students can create posts, reply, react</text>
+  <text x="620" y="700" class="permission-text">• Staff can moderate, manage threads, mention @everyone</text>
+  <text x="620" y="715" class="permission-text">• Tags required for organization (L1, CS2, AMC10, etc.)</text>
+  
+  <text x="610" y="735" class="channel-text">Classroom Channels:</text>
+  <text x="620" y="750" class="permission-text">• Private access based on semester role (2025-CS1, 2025-AMC10, etc.)</text>
+  <text x="620" y="765" class="permission-text">• Teachers pin assignments and important information</text>
+  <text x="620" y="780" class="permission-text">• Students coordinate and ask administrative questions</text>
+  
+  <text x="610" y="800" class="channel-text">Staff Channels:</text>
+  <text x="620" y="815" class="permission-text">• #teacher-lounge: Teachers and Admins only</text>
+  <text x="620" y="830" class="permission-text">• #staff-announcements: All staff can view, Admins post</text>
+  <text x="620" y="845" class="permission-text">• #materials-bank: Teachers, TAs, Tutors share resources</text>
+  
+  <!-- Footer -->
+  <text x="700" y="920" text-anchor="middle" class="access-text">
+    This role system ensures organized access while promoting community learning and cross-level support
+  </text>
+  
+  <!-- Note about semester updates -->
+  <rect x="50" y="940" width="1300" height="60" class="legend-box"/>
+  <text x="60" y="960" class="channel-text">Important: Semester roles are updated each term</text>
+  <text x="60" y="980" class="permission-text">• At semester end: Archive old roles (2025-CS1 becomes 2026-CS1 for continuing students)</text>
+  <text x="60" y="995" class="permission-text">• Students may have multiple roles if enrolled in multiple courses simultaneously</text>
+  
+</svg>

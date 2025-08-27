@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #2c3e50; }
+      .section-title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #34495e; }
+      .channel-text { font-family: Arial, sans-serif; font-size: 14px; fill: #2c3e50; }
+      .access-text { font-family: Arial, sans-serif; font-size: 12px; fill: #7f8c8d; }
+      .public-channel { fill: #3498db; stroke: #2980b9; stroke-width: 2; }
+      .forum-channel { fill: #e74c3c; stroke: #c0392b; stroke-width: 2; }
+      .private-channel { fill: #f39c12; stroke: #e67e22; stroke-width: 2; }
+      .staff-channel { fill: #9b59b6; stroke: #8e44ad; stroke-width: 2; }
+      .section-bg { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 2; }
+      .legend-box { fill: #ffffff; stroke: #95a5a6; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" class="title">MathSchool Discord Server Structure</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="50" width="300" height="120" class="legend-box"/>
+  <text x="60" y="75" class="section-title">Channel Types:</text>
+  <rect x="60" y="85" width="15" height="15" class="public-channel"/>
+  <text x="85" y="97" class="channel-text">Public Channels</text>
+  <rect x="60" y="105" width="15" height="15" class="forum-channel"/>
+  <text x="85" y="117" class="channel-text">Forum Channels</text>
+  <rect x="200" y="85" width="15" height="15" class="private-channel"/>
+  <text x="225" y="97" class="channel-text">Private Channels</text>
+  <rect x="200" y="105" width="15" height="15" class="staff-channel"/>
+  <text x="225" y="117" class="channel-text">Staff Channels</text>
+  
+  <!-- Section 1: Global Community -->
+  <rect x="50" y="200" width="1100" height="200" class="section-bg"/>
+  <text x="70" y="230" class="section-title">🌐 1. Global Community</text>
+  <text x="70" y="250" class="access-text">Access: All Members</text>
+  
+  <!-- Global Community Channels -->
+  <rect x="80" y="270" width="200" height="40" class="public-channel"/>
+  <text x="90" y="290" class="channel-text">#announcements</text>
+  <text x="90" y="305" class="access-text">Text (Read-only)</text>
+  
+  <rect x="300" y="270" width="200" height="40" class="public-channel"/>
+  <text x="310" y="290" class="channel-text">#general-chat</text>
+  <text x="310" y="305" class="access-text">Text</text>
+  
+  <rect x="520" y="270" width="200" height="40" class="public-channel"/>
+  <text x="530" y="290" class="channel-text">#events</text>
+  <text x="530" y="305" class="access-text">Text</text>
+  
+  <rect x="740" y="270" width="200" height="40" class="public-channel"/>
+  <text x="750" y="290" class="channel-text">#q-and-a</text>
+  <text x="750" y="305" class="access-text">Text</text>
+  
+  <rect x="960" y="270" width="200" height="40" class="public-channel"/>
+  <text x="970" y="290" class="channel-text">#tech-support</text>
+  <text x="970" y="305" class="access-text">Text</text>
+  
+  <!-- Section 2: Homework Help -->
+  <rect x="50" y="430" width="1100" height="160" class="section-bg"/>
+  <text x="70" y="460" class="section-title">📘 2. Homework Help (Shared Forums)</text>
+  <text x="70" y="480" class="access-text">Access: All Math/CS Students</text>
+  
+  <!-- Homework Help Channels -->
+  <rect x="80" y="500" width="500" height="60" class="forum-channel"/>
+  <text x="90" y="520" class="channel-text">#math-homework-help</text>
+  <text x="90" y="535" class="access-text">Forum - Tags: L1, L2, FunMath1, FunMath2,</text>
+  <text x="90" y="550" class="access-text">AMC8, AMC10, AMC12, AIME</text>
+  
+  <rect x="600" y="500" width="500" height="60" class="forum-channel"/>
+  <text x="610" y="520" class="channel-text">#cs-homework-help</text>
+  <text x="610" y="535" class="access-text">Forum - Tags: CS1, CS2, CS3, CS4</text>
+  
+  <!-- Section 3: Classrooms -->
+  <rect x="50" y="620" width="1100" height="320" class="section-bg"/>
+  <text x="70" y="650" class="section-title">🏫 3. Classrooms (Private Access)</text>
+  <text x="70" y="670" class="access-text">Access: Semester-specific Roles</text>
+  
+  <!-- Mathematics Courses -->
+  <text x="80" y="700" class="section-title">Mathematics Courses:</text>
+  <rect x="80" y="710" width="180" height="40" class="private-channel"/>
+  <text x="90" y="730" class="channel-text">#l1-classroom</text>
+  <text x="90" y="745" class="access-text">2025-L1 role</text>
+  
+  <rect x="280" y="710" width="180" height="40" class="private-channel"/>
+  <text x="290" y="730" class="channel-text">#l2-classroom</text>
+  <text x="290" y="745" class="access-text">2025-L2 role</text>
+  
+  <rect x="480" y="710" width="180" height="40" class="private-channel"/>
+  <text x="490" y="730" class="channel-text">#funmath1-classroom</text>
+  <text x="490" y="745" class="access-text">2025-FunMath1 role</text>
+  
+  <rect x="680" y="710" width="180" height="40" class="private-channel"/>
+  <text x="690" y="730" class="channel-text">#funmath2-classroom</text>
+  <text x="690" y="745" class="access-text">2025-FunMath2 role</text>
+  
+  <rect x="880" y="710" width="180" height="40" class="private-channel"/>
+  <text x="890" y="730" class="channel-text">#amc8-classroom</text>
+  <text x="890" y="745" class="access-text">2025-AMC8 role</text>
+  
+  <rect x="80" y="770" width="180" height="40" class="private-channel"/>
+  <text x="90" y="790" class="channel-text">#amc10-classroom</text>
+  <text x="90" y="805" class="access-text">2025-AMC10 role</text>
+  
+  <rect x="280" y="770" width="180" height="40" class="private-channel"/>
+  <text x="290" y="790" class="channel-text">#amc12-classroom</text>
+  <text x="290" y="805" class="access-text">2025-AMC12 role</text>
+  
+  <rect x="480" y="770" width="180" height="40" class="private-channel"/>
+  <text x="490" y="790" class="channel-text">#aime-classroom</text>
+  <text x="490" y="805" class="access-text">2025-AIME role</text>
+  
+  <!-- Computer Science Courses -->
+  <text x="80" y="840" class="section-title">Computer Science Courses:</text>
+  <rect x="80" y="850" width="180" height="40" class="private-channel"/>
+  <text x="90" y="870" class="channel-text">#cs1-classroom</text>
+  <text x="90" y="885" class="access-text">2025-CS1 role</text>
+  
+  <rect x="280" y="850" width="180" height="40" class="private-channel"/>
+  <text x="290" y="870" class="channel-text">#cs2-classroom</text>
+  <text x="290" y="885" class="access-text">2025-CS2 role</text>
+  
+  <rect x="480" y="850" width="180" height="40" class="private-channel"/>
+  <text x="490" y="870" class="channel-text">#cs3-classroom</text>
+  <text x="490" y="885" class="access-text">2025-CS3 role</text>
+  
+  <rect x="680" y="850" width="180" height="40" class="private-channel"/>
+  <text x="690" y="870" class="channel-text">#cs4-classroom</text>
+  <text x="690" y="885" class="access-text">2025-CS4 role</text>
+  
+  <!-- Section 4: Staff Spaces -->
+  <rect x="50" y="970" width="1100" height="160" class="section-bg"/>
+  <text x="70" y="1000" class="section-title">👩‍🏫 4. Staff Spaces</text>
+  <text x="70" y="1020" class="access-text">Access: Staff Roles Only</text>
+  
+  <!-- Staff Channels -->
+  <rect x="80" y="1040" width="300" height="60" class="staff-channel"/>
+  <text x="90" y="1060" class="channel-text">#teacher-lounge</text>
+  <text x="90" y="1075" class="access-text">Teachers, TAs, Admins</text>
+  <text x="90" y="1090" class="access-text">Private staff discussion</text>
+  
+  <rect x="400" y="1040" width="300" height="60" class="staff-channel"/>
+  <text x="410" y="1060" class="channel-text">#staff-announcements</text>
+  <text x="410" y="1075" class="access-text">Teachers, TAs, Admins</text>
+  <text x="410" y="1090" class="access-text">Internal announcements</text>
+  
+  <rect x="720" y="1040" width="300" height="60" class="staff-channel"/>
+  <text x="730" y="1060" class="channel-text">#materials-bank</text>
+  <text x="730" y="1075" class="access-text">Teachers, TAs, Tutors</text>
+  <text x="730" y="1090" class="access-text">Shared resources</text>
+  
+  <!-- Section 5: Role System Summary -->
+  <rect x="50" y="1160" width="1100" height="200" class="section-bg"/>
+  <text x="70" y="1190" class="section-title">🎭 5. Role System Overview</text>
+  
+  <!-- Student Roles -->
+  <text x="80" y="1220" class="section-title">Student Roles (Semester-Based):</text>
+  <text x="80" y="1240" class="channel-text">CS Courses: 2025-CS1, 2025-CS2, 2025-CS3, 2025-CS4</text>
+  <text x="80" y="1260" class="channel-text">Math Courses: 2025-L1, 2025-L2, 2025-FunMath1, 2025-FunMath2</text>
+  <text x="80" y="1280" class="channel-text">Competition: 2025-AMC8, 2025-AMC10, 2025-AMC12, 2025-AIME</text>
+  
+  <!-- Staff Roles -->
+  <text x="80" y="1310" class="section-title">Staff Roles (Global):</text>
+  <text x="80" y="1330" class="channel-text">Admin, Teacher, TA (Teaching Assistant), Tutor</text>
+  
+  <!-- Footer -->
+  <text x="600" y="1380" text-anchor="middle" class="access-text">
+    Key Design Principle: Shared homework help maintains active discussions and cross-level peer learning
+  </text>
+</svg>
