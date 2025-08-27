@@ -28,25 +28,25 @@ This guide provides step-by-step instructions for setting up the MathSchool Disc
 Create these roles in order (higher roles have more permissions):
 
 1. **Admin**
-   - Color: Red (#FF0000)
+   - Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF0000; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>Red (#FF0000)
    - Permissions: Administrator
    - Hoist: Yes
    - Mentionable: No
 
 2. **Teacher**
-   - Color: Purple (#9932CC)
+   - Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #9932CC; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>Purple (#9932CC)
    - Permissions: Manage Channels, Manage Messages, Kick Members, Mute Members
    - Hoist: Yes
    - Mentionable: Yes
 
 3. **TA**
-   - Color: Blue (#0000FF)
+   - Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #0000FF; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>Blue (#0000FF)
    - Permissions: Manage Messages, Mute Members
    - Hoist: Yes
    - Mentionable: Yes
 
 4. **Tutor**
-   - Color: Green (#008000)
+   - Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #008000; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>Green (#008000)
    - Permissions: Manage Messages (in homework help only)
    - Hoist: Yes
    - Mentionable: Yes
@@ -57,20 +57,20 @@ Create these roles in order (higher roles have more permissions):
 Create these roles without special permissions:
 
 **Computer Science Courses:**
-- `2025-CS1` (Color: #FF6B6B)
-- `2025-CS2` (Color: #FF8E53)
-- `2025-CS3` (Color: #FF6B9D)
-- `2025-CS4` (Color: #C44569)
+- `2025-CS1` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF6B6B; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FF6B6B)
+- `2025-CS2` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF8E53; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FF8E53)
+- `2025-CS3` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #FF6B9D; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FF6B9D)
+- `2025-CS4` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #C44569; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#C44569)
 
 **Mathematics Courses:**
-- `2025-L1` (Color: #4834D4)
-- `2025-L2` (Color: #6C5CE7)
-- `2025-FunMath1` (Color: #A55EEA)
-- `2025-FunMath2` (Color: #FD79A8)
-- `2025-AMC8` (Color: #00B894)
-- `2025-AMC10` (Color: #00CEC9)
-- `2025-AMC12` (Color: #81ECEC)
-- `2025-AIME` (Color: #74B9FF)
+- `2025-L1` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #4834D4; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#4834D4)
+- `2025-L2` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #6C5CE7; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#6C5CE7)
+- `2025-FunMath1` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #A55EEA; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#A55EEA)
+- `2025-FunMath2` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #FD79A8; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#FD79A8)
+- `2025-AMC8` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #00B894; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#00B894)
+- `2025-AMC10` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #00CEC9; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#00CEC9)
+- `2025-AMC12` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #81ECEC; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#81ECEC)
+- `2025-AIME` (Color: <span style="display: inline-block; width: 16px; height: 16px; background-color: #74B9FF; border: 1px solid #000; vertical-align: middle; margin-right: 6px;"></span>#74B9FF)
 
 #### Role Settings for Student Roles:
 - Permissions: Default (@everyone permissions)
